@@ -13,12 +13,6 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <br></br>
-        <div>
-
-          jakikolwiek tekst
-
-          </div>
         <Route path="/" exact component={About}></Route>
         <Route path="/skills" exact component={Skills}></Route>
         <Route path="/projects" exact component={Projects}></Route>

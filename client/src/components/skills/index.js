@@ -1,8 +1,9 @@
 import React from 'react';
+import "./style.css"
 
 const Skills = () => {
     return (
-        <div>Skills</div>
+        <div className="container">Skills</div>
     )
 }
 

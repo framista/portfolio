@@ -8,8 +8,8 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="icons">
-                <a className="icons__a" href="https://github.com/framista" target="_blank"><Icon icon={githubFilled} /></a>
-                <a className="icons__a" href="https://www.codewars.com/users/Ada_Jab/stats" target="_blank"><Icon icon={codewarsIcon} /></a>
+                <a className="icons__a" href="https://github.com/framista" target="_blank" rel="noopener noreferrer"><Icon icon={githubFilled} /></a>
+                <a className="icons__a" href="https://www.codewars.com/users/Ada_Jab/stats" target="_blank" rel="noopener noreferrer"><Icon icon={codewarsIcon} /></a>
             </div>
             <p className="author">Adrianna Jabłońska &copy; 2020</p>
         </footer>

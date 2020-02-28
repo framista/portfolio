@@ -1,0 +1,7 @@
+.container {
+    min-height: calc(99.6vh - 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
