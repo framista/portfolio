@@ -3,6 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     min-height: 10vh;
     background-image: linear-gradient(0deg, #ecdfd5 0%, #e2d1c3 100%);
 }
@@ -18,10 +22,11 @@
     margin: 0;
     text-decoration: none;
     color: black;
-    margin: 10px 5px 0 5px;
+    margin: 10px 5px 10px 5px;
 }
 
 .author {
-    padding: 5px;
+    margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
+    color: #302706;
 }

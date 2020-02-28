@@ -1,6 +1,6 @@
 import React from 'react';
-import './style.css'
-import { Icon, InlineIcon } from '@iconify/react';
+import './style.css';
+import { Icon } from '@iconify/react';
 import codewarsIcon from '@iconify/icons-simple-icons/codewars';
 import githubFilled from '@iconify/icons-ant-design/github-filled';
 
