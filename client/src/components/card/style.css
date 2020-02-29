@@ -43,7 +43,7 @@
 
 .card__image {
     height: auto;
-    padding: 2px;
+    padding: 5px 10px;
 }
 
 .card__h1 {
@@ -90,20 +90,21 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
     .card-container {
         width: 250px;
-        height: 200px;
+        height: 220px;
         margin-top: 60px;
     }
     .card__image {
         width: 230px;
     }
     .card__text {
-        font-size: 1em;
+        font-size: 0.9em;
         margin-top: 15px;
-        padding: 0px;
-        line-height: 1.2em;
+        padding: 10px;
+        padding-bottom: 0px;
+        line-height: 1.4em;
         letter-spacing: 1px;
     }
     .card__icons__a {
@@ -111,7 +112,7 @@
     }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 769px) {
     .card-container {
         width: 400px;
         height: 350px;

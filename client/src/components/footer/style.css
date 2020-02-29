@@ -36,8 +36,14 @@
     color: #302706;
 }
 
-@media screen and (orientation:landscape) { 
-    .footer{
+@media screen and (orientation:landscape) {
+    .footer {
         position: static;
     }
- }
+}
+
+@media screen and (orientation:portrait) and (max-width: 500px) {
+    .footer {
+        position: static;
+    }
+}
