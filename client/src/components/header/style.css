@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 768px) {
     .header{
-        position: fixed;
+        /* position: fixed; */
         width: 100%;
     }
     .line {
@@ -47,8 +47,9 @@
     .nav__link {
         display: none;
         position: fixed;
-        height: 90vh;
+        height: 60vh;
         width: 100vw;
+        margin-bottom: 5px;
         top: 60px;
         left: 0;
         flex-direction: column;

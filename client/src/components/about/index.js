@@ -3,7 +3,7 @@ import './style.css'
 
 const About = () => {
     return (
-        <div className="container">
+        <div className="about-container">
             <div className="container__image">
                 <img src="/photo.JPG" className="image" />
             </div>

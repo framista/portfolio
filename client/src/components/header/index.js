@@ -43,6 +43,7 @@ class Header extends Component {
     closeNavbar = () => {
         if (this.state.width <= 768) {
             this.navRef.current.style.display = "none";
+            document.body.style.overflow = this.navRef.current.style.display !== "none" ? "hidden" : "auto";
         }
     }
 
@@ -55,6 +56,8 @@ class Header extends Component {
 
     toggleNavbar = () => {
         this.navRef.current.style.display = this.navRef.current.style.display === "none" ? "flex" : "none";
+        document.body.style.overflow = this.navRef.current.style.display !== "none" ? "hidden" : "auto";
+        window.scrollTo(0, 0);
     }
 
 }

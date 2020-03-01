@@ -1,4 +1,4 @@
-.container {
+.about-container {
     min-height: calc(99.6vh - 150px);
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 850px) {
-    .container {
+    .about-container {
         flex-direction: column;
         overflow: auto;
     }
@@ -46,7 +46,7 @@
 }
 
 @media screen and (orientation:landscape) {
-    .container {
+    .about-container {
         margin-bottom: 0px;
     }
 }
