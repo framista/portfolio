@@ -16,16 +16,16 @@ import gitIcon from '@iconify/icons-logos/git';
 const Skills = () => {
     return (
         <div className="skills__container">
-            <Icon className="skills__icon" icon={javascriptIcon} />
-            <Icon className="skills__icon" icon={reactIcon} />
-            <Icon className="skills__icon" icon={webpackIcon} />
-            <Icon className="skills__icon" icon={html5} />
-            <Icon className="skills__icon" icon={css3} />
-            <Icon className="skills__icon" icon={bootstrapIcon} />
-            <Icon className="skills__icon" icon={nodejsIcon} />
-            <Icon className="skills__icon" icon={mongodbIcon} />
-            <Icon className="skills__icon" icon={sqliteIcon} />
-            <Icon className="skills__icon" icon={gitIcon} />
+            <div className="box__icon"><Icon className="skills__icon" icon={javascriptIcon} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={reactIcon} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={webpackIcon} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={html5} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={css3} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={bootstrapIcon} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={nodejsIcon} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={mongodbIcon} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={sqliteIcon} /></div>
+            <div className="box__icon"><Icon className="skills__icon" icon={gitIcon} /></div>
         </div>
     )
 }
