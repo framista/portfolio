@@ -1,6 +1,26 @@
-.container {
+.skills__container {
     min-height: calc(99.6vh - 150px);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.skills__icon {
+    font-size: 120px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+    .skills__container {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills__icon{
+        font-size: 160px;
+    }
 }
