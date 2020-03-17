@@ -30,7 +30,7 @@
 .group__input {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 .contact__label{
@@ -52,6 +52,10 @@
     letter-spacing: 1px;
 }
 
+.contact__input:focus, .contact__textarea:focus{
+    border: 2px solid #663300;
+}
+
 .contact__textarea {
     padding: 10px 3px;
     margin-top: 5px;
@@ -59,9 +63,15 @@
     outline: none;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
-    /* font-weight: 600; */
     line-height: 1.5em;
     letter-spacing: 0.5px;
+}
+
+.contact--error{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding-top: 3px;
 }
 
 .contact__button{
@@ -87,8 +97,10 @@
 
 @media screen and (max-width: 768px) {
     .contact__container {
-        min-height: calc(99.6vh - 90px);
-        padding-top: 60px;
+        /* min-height: calc(99.6vh - 90px); */
+        margin-bottom: 95px;
+        /* padding-top: 60px; */
+
     }
     .contact__form {
         width: 90%;
